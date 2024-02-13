@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "alwaysStrict": true,
+        // "diagnostics": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "ES2020",
+        "types": [
+            "node"
+        ],
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist"
+    },
+    "lib": [
+        "ES2020"
+    ]
+}
